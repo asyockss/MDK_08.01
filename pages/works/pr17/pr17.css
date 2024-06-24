@@ -1,0 +1,83 @@
+.wrapper{
+    width: 1081px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto
+}
+.header{
+    height: 543px;
+    background: url(../../../img/106.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu{
+    width: 100px;
+    height: 60px;
+    margin-left: 62px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.right{
+    display: flex;
+    margin-right: 62px;
+}
+.lupa{
+    margin-right: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+h1{
+    margin-left: 60px;
+    font-size: 54px;
+    color: white;
+}
+.karandash img{
+    position: absolute;
+    right: 60px;
+    top: 450px;
+}
+.main{
+    height: 300px;
+    background-color: rgb(250, 253, 255);
+}
+.info{
+    display: flex;
+}
+.info p{
+    font-size: 20px;
+    color: rgb(159, 159, 159);
+    margin-left: 145px;
+    margin-top: 100px;
+}
+.chisla{
+    display: flex;
+    margin-left: 15px;
+}
+.chisla p{
+    font-size: 65px;
+    margin-left: 125px;
+    margin-top: 0;
+}
+.zagolovok{
+    font-size: 20px;
+    color: rgb(0, 158, 163);
+    margin: 30px;
+}
+.infoz{
+    font-size: 28px;
+    margin: 30px;
+    margin-top: -15px;
+}
+.podval{
+    height: 130px;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(197, 197, 197) ;
+    margin: 0px;
+}

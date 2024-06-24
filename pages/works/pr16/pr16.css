@@ -1,0 +1,283 @@
+header{
+    height: 800px;
+    background: url(../../../img/вверх.png);
+    background-size: cover;
+}
+.boshka{
+    display: flex;
+    align-items: center;
+}
+.m{
+    text-align: center;
+}
+.s{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer2{
+    background: url(../../../img/866.png);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.footer2 div{
+    margin: 40px;
+}
+.footer2 .f4{
+    margin: 40px;
+    margin-left: 300px;
+}
+.footer2 p{
+    color: rgb(206, 206, 206);
+    font-style: italic;
+    margin: 5px;
+    margin-left: 0px;
+}
+.footer2 h3{
+    color: aliceblue;
+    font-style: italic;
+}
+.spag{
+    width: 1400px;
+    height: 450px;
+    background: url(../../../img/OH3C7D0.png);
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    margin: 10px;
+}
+.spag2{
+    width: 500px;
+    height: 400px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+.spag2 h2{
+    font-size: 30px;
+}
+.spag3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(255, 191, 0);
+    box-shadow: 0px 3px 10px 0px black;
+}
+.email{
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 10px;
+    border: 0px;
+    font-style: italic;
+}
+.email2{
+    background-color: rgb(255, 191, 0);
+    padding: 10px;
+    border: 0px;
+    font-style: italic;
+}
+nav{
+    display: flex;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-bottom: 70px;
+}
+nav a{
+    padding: 20px 30px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: 50px;
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+}
+.sh1{
+    width: 400px;
+    height: 250px;
+    background: url(../../../img/obd1.png);
+    background-size: cover;
+    margin-top: 80px;
+}
+.sh2{
+    width: 400px;
+    height: 250px;
+    background: url(../../../img/obd2.png);
+    background-size: cover;
+}
+.sh3{
+    width: 400px;
+    height: 250px;
+    background: url(../../../img/obd1.png);
+    background-size: cover;
+    margin-top: 80px;
+}
+.SH{
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
+}
+.obl{
+    background-color: rgb(255, 191, 0);
+    font-size: 10px;
+    width: 130px;
+    margin: 0 auto;
+    margin-top: -55px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+.block{
+    background: url(../../../img/4031.png);
+    background-size: cover;
+    height: 600px;
+}
+.forma {
+    width: 700px;
+    margin: auto auto;
+    background: url(../../../img/bg.png);
+    height: 400px;
+    background-size: cover;
+}
+.forma h2{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.block_button{
+    width: 150px;
+    height: 40px;
+    margin: 0px auto;
+    margin-top: 40px;
+    text-align: center;
+    background: rgb(255, 191, 0);
+    font-size: 16px;
+    line-height: 40px;
+    box-shadow: 0px 3px 10px 0px black;
+    transition: 0.3s;
+}
+.block_button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.block_button:active{
+    transform: translateY(5px);
+}
+.content{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+.left{
+    display:flex;
+    font-size: 20px;
+    width: 55%;
+}
+.right{
+    font-size: 18px;
+    line-height: 6px;
+    width: 45%;
+    text-align: left;
+
+}
+.left img{
+    width: 80px;
+    height: 50px;
+}
+.left p{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.menu{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0 auto;
+}
+.menu_conteiner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.menu p{
+    text-transform: uppercase;
+}
+.menu_element{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_element_text_first{
+    display: flex;
+    height: 30px;
+    width: 350px;
+    margin-top: 10px;
+}
+.veganmenu_chek{
+    display: flex;
+    height: 15px;
+    width: 300px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+
+}
+.veganmenu_chek img{
+    width: 15px;
+    height: 15px;
+}
+.veganmenu_chek p{
+    margin: 0;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.menu_element img{
+    width: 80px;
+    height: 80px;
+}
+
+.menu_element_text_first p{
+    font-size: 20px;
+    
+}
+.menu_element p{
+    margin: 0;
+}
+.menu_element_price{
+    width: 50px;
+    height: 30px;
+    background: url(../../../img/obd3.png);
+    background-size: cover;
+}
+.menu_element_price p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+}
+.menu_element_text_second{
+    width: 350px;
+}
+.menu_element_text_second p{
+    color: grey;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.strelka{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(255, 191, 0);
+    font-size: 10px;
+}
+span{
+    color: rgb(103, 102, 102);
+}
