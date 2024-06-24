@@ -1,0 +1,93 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    width: 1070px;
+}
+section article{
+    width: 320px;
+    height: 440px;
+    background-color: #f0f8ff;
+    margin: 15px;
+    border: 2px groove gray;
+}
+section article .img1{
+    width: 320px;
+    height: 200px;
+    background: url(../../../img/unimate.jpg);
+    background-size: contain;
+}
+section article .img2{
+    width: 320px;
+    height: 200px;
+    background: url(../../../img/ts.webp);
+    background-size: contain;
+}
+section article .img3{
+    width: 320px;
+    height: 200px;
+    background: url(../../../img/es6.jpg);
+    background-size: contain;
+}
+section article .img4{
+    width: 320px;
+    height: 200px;
+    background: url(../../../img/learn.jpg);
+    background-size: contain;
+}
+section article .img5{
+    width: 320px;
+    height: 200px;
+    background: url(../../../img/build.jpg);
+    background-size: contain;
+}
+section article .img6{
+    width: 320px;
+    height: 200px;
+    background: url(../../../img/create.jpg);
+    background-size: contain;
+}
+.ret{
+    display: inline-block;
+    font-size: 0;
+}
+.ret span{
+    padding: 0;
+    font-size: 30px;
+    line-height: 1;
+    color: lightgrey;
+}
+.ret > span::before{
+    content: '★';
+}
+.ret > span.active{
+    color: gold;
+}
+.grey{
+    color: gray;
+}
+*{
+    font-size: 22px;
+}
+.reit{
+    width: 320px;
+    background-color: #f0f8ff;
+    display: flex;
+}
+.reit p{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.dol{
+    display: flex;
+    margin-left: 210px;
+}
+.dol .do{
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+.dol .d{
+font-weight: bold;
+font-size: 25px;
+}

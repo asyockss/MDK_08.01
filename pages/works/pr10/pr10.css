@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(23, 0, 33);
+}
+*{
+    color: beige;
+}
+.block{
+    display: block;
+    width: 870px;
+    height: 500px;
+    background-color: black;
+    padding: 5px;
+    margin: 10px;
+}
+.block p{
+    color: rgb(132, 132, 132);
+}
+.photki{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+.one{
+    width: 260px;
+    height: 150px;
+    background-color: rgb(18, 18, 18);
+    margin-top: -60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: -100px;
+}
+.two{
+    width: 260px;
+    height: 150px;
+    background-color: rgb(18, 18, 18);
+    margin-top: -60px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: -100px;
+}
+.three{
+    width: 260px;
+    height: 150px;
+    background-color: rgb(18, 18, 18);
+    margin-top: -60px;
+    margin-left: 10px;
+    margin-bottom: -100px;
+}
